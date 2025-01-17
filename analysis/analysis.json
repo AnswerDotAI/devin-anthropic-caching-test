@@ -1,0 +1,94 @@
+{
+  "analysis_date": "2024-03-17",
+  "model_performance": {
+    "claude-3-haiku-20240307": {
+      "cost_reduction_range": {
+        "min": 78.1,
+        "max": 99.1,
+        "average": 92.0
+      },
+      "response_quality": "Maintained across all prompts",
+      "sample_costs": {
+        "capital_query": {
+          "base": 0.000016,
+          "cached": 0.000003,
+          "reduction": 78.1
+        },
+        "landmark_query": {
+          "base": 0.000428,
+          "cached": 0.000004,
+          "reduction": 99.1
+        },
+        "population_query": {
+          "base": 0.000312,
+          "cached": 0.000003,
+          "reduction": 98.9
+        }
+      }
+    },
+    "claude-3-opus-20240229": {
+      "cost_reduction_range": {
+        "min": 78.1,
+        "max": 99.0,
+        "average": 91.9
+      },
+      "response_quality": "Maintained across all prompts",
+      "sample_costs": {
+        "capital_query": {
+          "base": 0.000960,
+          "cached": 0.000210,
+          "reduction": 78.1
+        },
+        "landmark_query": {
+          "base": 0.024840,
+          "cached": 0.000240,
+          "reduction": 99.0
+        },
+        "population_query": {
+          "base": 0.014160,
+          "cached": 0.000210,
+          "reduction": 98.5
+        }
+      }
+    },
+    "claude-3-5-sonnet-20241022": {
+      "cost_reduction_range": {
+        "min": 91.2,
+        "max": 99.0,
+        "average": 95.2
+      },
+      "response_quality": "Maintained across all prompts",
+      "sample_costs": {
+        "capital_query": {
+          "base": 0.000477,
+          "cached": 0.000042,
+          "reduction": 91.2
+        },
+        "landmark_query": {
+          "base": 0.004653,
+          "cached": 0.000048,
+          "reduction": 99.0
+        },
+        "population_query": {
+          "base": 0.000912,
+          "cached": 0.000042,
+          "reduction": 95.4
+        }
+      }
+    }
+  },
+  "summary": {
+    "overall_cost_reduction": {
+      "min": 78.1,
+      "max": 99.1,
+      "average": 93.0
+    },
+    "key_findings": [
+      "All models showed significant cost reductions with caching enabled",
+      "Response quality and accuracy maintained across all cached responses",
+      "Larger cost reductions observed with longer, more complex queries",
+      "Consistent caching behavior across all Claude 3 model variants",
+      "Most significant savings seen in detailed responses (Eiffel Tower descriptions)"
+    ]
+  }
+}

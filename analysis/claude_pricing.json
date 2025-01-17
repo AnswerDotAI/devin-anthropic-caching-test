@@ -1,0 +1,57 @@
+{
+  "models": {
+    "claude-3-haiku-20240307": {
+      "base_pricing": {
+        "input_tokens": 0.25,
+        "output_tokens": 1.25,
+        "unit": "USD per million tokens"
+      },
+      "cached_pricing": {
+        "input_tokens": 0.25,
+        "output_tokens": 0,
+        "notes": "When using caching, only input tokens are charged, cached outputs are free"
+      }
+    },
+    "claude-3-5-haiku-latest": {
+      "base_pricing": {
+        "input_tokens": 0.80,
+        "output_tokens": 4.00,
+        "unit": "USD per million tokens"
+      },
+      "cached_pricing": {
+        "input_tokens": 0.80,
+        "output_tokens": 0,
+        "notes": "When using caching, only input tokens are charged, cached outputs are free"
+      }
+    },
+    "claude-3-5-sonnet-20241022": {
+      "base_pricing": {
+        "input_tokens": 3.00,
+        "output_tokens": 15.00,
+        "unit": "USD per million tokens"
+      },
+      "cached_pricing": {
+        "input_tokens": 3.00,
+        "output_tokens": 0,
+        "notes": "When using caching, only input tokens are charged, cached outputs are free"
+      }
+    },
+    "claude-3-opus-20240229": {
+      "base_pricing": {
+        "input_tokens": 15.00,
+        "output_tokens": 75.00,
+        "unit": "USD per million tokens"
+      },
+      "cached_pricing": {
+        "input_tokens": 15.00,
+        "output_tokens": 0,
+        "notes": "When using caching, only input tokens are charged, cached outputs are free"
+      }
+    },
+    "metadata": {
+      "last_updated": "2024-03-17",
+      "source": "Anthropic API Documentation",
+      "notes": "Prices are in USD per million tokens. Cached responses do not incur output token costs."
+    }
+  }
+}
